@@ -29,7 +29,7 @@ public class SecondActivity extends Activity{
     @Override
     protected void onResume() {
         super.onResume();
-        Log.e("Second", "onResume");
+        Log.e("Second", "onResume111");
     }
 
     @Override
