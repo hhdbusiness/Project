@@ -23,7 +23,7 @@ public class SecondActivity extends Activity{
     @Override
     protected void onStart() {
         super.onStart();
-        Log.e("Second", "onStart");
+        Log.e("Second", "onStart111");
     }
 
     @Override
