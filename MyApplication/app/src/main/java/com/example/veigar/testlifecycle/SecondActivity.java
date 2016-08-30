@@ -17,7 +17,7 @@ public class SecondActivity extends Activity{
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.e("Second", "onComcomcom");
+        Log.e("Second", "onComcomcom2222222");
     }
 
     @Override
