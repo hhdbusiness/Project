@@ -28,6 +28,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.veigar.protector.SmallRankDialog;
+
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
@@ -141,7 +143,7 @@ public class FirstActivity extends Activity {
     }
 
     private void setEditText() {
-        et_input.setShowSoftInputOnFocus(false);
+//        et_input.setShowSoftInputOnFocus(false);
 
         /*et_input.setOnTouchListener(new View.OnTouchListener() {
             @Override
@@ -180,14 +182,18 @@ public class FirstActivity extends Activity {
     }
 
     public void showDialog(){
-        View becomeSponsor = View.inflate(this, R.layout.dialog_content, null);
+        PersonRankData personRankData = new PersonRankData();
+        personRankData.setRank(80);
+        SmallRankDialog smallRankDialog = SmallRankDialog.createDialog(FirstActivity.this,personRankData);
+        smallRankDialog.show();
+        /*View becomeSponsor = View.inflate(this, R.layout.dialog_content, null);
         Dialog dialog = new Dialog(this, R.style.dialog_no_dim);
         dialog.setContentView(becomeSponsor);
         Window mWindow = dialog.getWindow();
         mWindow.setGravity(Gravity.TOP | Gravity.CENTER_HORIZONTAL);
         WindowManager.LayoutParams layoutParams = mWindow.getAttributes();
         layoutParams.y = 200;
-        dialog.show();
+        dialog.show();*/
     }
 
     public static int dip2px(Context context, float dpValue) {

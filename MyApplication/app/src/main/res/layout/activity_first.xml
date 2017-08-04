@@ -32,4 +32,16 @@
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
         android:text="减少"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="哈哈哈哈哈哈哈哈哈哈哈"
+        android:textColor="#ffffff"
+        android:shadowColor="#59000000"
+        android:shadowDx="-3"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:layout_marginTop="20dp"
+        />
 </LinearLayout>
