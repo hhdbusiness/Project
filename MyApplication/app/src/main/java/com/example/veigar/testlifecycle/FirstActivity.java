@@ -51,7 +51,7 @@ public class FirstActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first);
+        setContentView(R.layout.activity_first);//sdfsdf
         btn_start = (ImageButton) findViewById(R.id.btn_start);
         et_input = (EditText) findViewById(R.id.et_input);
         btn_reduce = (Button) findViewById(R.id.btn_reduce);
