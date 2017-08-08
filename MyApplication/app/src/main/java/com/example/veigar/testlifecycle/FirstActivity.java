@@ -88,7 +88,7 @@ public class FirstActivity extends Activity {
 
             /*int currentVersion = android.os.Build.VERSION.SDK_INT;
             String methodName = null;
-            if(currentVersion >= 16){
+            if(currentVersion >= 16){啊
                 // 4.2
                 methodName = "setShowSoftInputOnFocus";
             }
